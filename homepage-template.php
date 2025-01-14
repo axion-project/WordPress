@@ -1,8 +1,8 @@
 <?php
 // Created by Michael Morales
 // Full-Site Editing Template Example with Advanced PHP Logic
-
 // Register a custom template for the homepage
+
 function custom_register_homepage_template() {
     $template = array(
         'title' => 'Homepage Template',
