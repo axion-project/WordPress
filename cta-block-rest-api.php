@@ -1,6 +1,7 @@
 <?php
 // Created by Michael Morales
 // Register the block and expose custom REST API endpoints.
+
 function custom_register_cta_block() {
     register_block_type(
         'custom/cta-block',
