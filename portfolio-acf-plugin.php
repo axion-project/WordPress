@@ -1,8 +1,8 @@
 <?php
 // Created by Michael Morales
 // Plugin for Custom Post Type with ACF Integration
-
 // Register Portfolio Custom Post Type
+
 function custom_register_portfolio_post_type() {
     $args = array(
         'public' => true,
