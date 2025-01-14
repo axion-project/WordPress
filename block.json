@@ -1,0 +1,12 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "name": "custom/cta-block",
+    "title": "Call to Action",
+    "category": "common",
+    "icon": "megaphone",
+    "attributes": {
+        "content": { "type": "string" },
+        "ctaId": { "type": "string", "default": "default-cta" }
+    },
+    "editorScript": "file:./js/cta-block.js"
+}
