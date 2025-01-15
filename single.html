@@ -1,53 +1,37 @@
 <!-- Author: Michael Morales -->
-
 <!-- This template is designed for WordPress Full-Site Editing (FSE) with translatable strings. -->
-
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
-<main>
+<!-- wp:paragraph -->
+<p><?php esc_html_e( 'Welcome to our site!', 'your-theme-textdomain' ); ?></p>
+<!-- /wp:paragraph -->
 
-    <!-- wp:paragraph -->
-
-    <p><?php esc_html_e( 'Welcome to our site!', 'your-theme-textdomain' ); ?></p>
-
-    <!-- /wp:paragraph -->
-
-    <!-- wp:group {"align":"wide","className":"custom-group"} -->
-
-    <div class="wp-block-group alignwide custom-group">
-
-        <!-- wp:columns {"align":"wide","className":"custom-columns"} -->
-
-        <div class="wp-block-columns alignwide custom-columns">
-
-            <!-- wp:column {"className":"custom-column"} -->
-
-            <div class="wp-block-column custom-column">
-
-                <h2><?php esc_html_e( 'About Us', 'your-theme-textdomain' ); ?></h2>
-
-                <p><?php esc_html_e( 'Learn more about our journey and vision.', 'your-theme-textdomain' ); ?></p>
-
-            </div>
-
-            <!-- /wp:column -->
-
-            <!-- wp:column {"className":"custom-column"} -->
-
-            <div class="wp-block-column custom-column">
-
-                <h2><?php esc_html_e( 'Contact', 'your-theme-textdomain' ); ?></h2>
-
-                <p><?php esc_html_e( 'Reach out to us anytime!', 'your-theme-textdomain' ); ?></p>
-
-            </div>
-
-            <!-- /wp:column -->
-
+<!-- wp:group {"align":"wide","className":"custom-group"} -->
+<div class="wp-block-group alignwide custom-group">
+    <!-- wp:columns {"align":"wide","className":"custom-columns"} -->
+    <div class="wp-block-columns alignwide custom-columns">
+        <!-- wp:column {"className":"custom-column"} -->
+        <div class="wp-block-column custom-column">
+            <!-- wp:heading -->
+            <h2><?php esc_html_e( 'About Us', 'your-theme-textdomain' ); ?></h2>
+            <!-- /wp:heading -->
+            <!-- wp:paragraph -->
+            <p><?php esc_html_e( 'Learn more about our journey and vision.', 'your-theme-textdomain' ); ?></p>
+            <!-- /wp:paragraph -->
         </div>
+        <!-- /wp:column -->
 
-        <!-- /wp:columns -->
-
+        <!-- wp:column {"className":"custom-column"} -->
+        <div class="wp-block-column custom-column">
+            <!-- wp:heading -->
+            <h2><?php esc_html_e( 'Contact', 'your-theme-textdomain' ); ?></h2>
+            <!-- /wp:heading -->
+            <!-- wp:paragraph -->
+            <p><?php esc_html_e( 'Reach out to us anytime!', 'your-theme-textdomain' ); ?></p>
+            <!-- /wp:paragraph -->
+        </div>
+        <!-- /wp:column -->
     </div>
-
-</main>
+    <!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
